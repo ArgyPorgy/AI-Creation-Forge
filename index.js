@@ -1,4 +1,4 @@
-const api_key = "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";
+const api_key = "";
 
 const prompt = document.querySelector('input');
 const generatebutton = document.querySelector('button');
