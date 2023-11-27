@@ -1,4 +1,4 @@
-const api_key = "";
+const api_key = "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";
 
 const prompt = document.querySelector('input');
 const generatebutton = document.querySelector('button');
@@ -6,8 +6,7 @@ const imagesection = document.querySelector('.generated-images');
 
 async function generateimg(){
 
-
-
+    
     const response = await fetch("https://api.openai.com/v1/images/generations",{
         method: "POST", headers : {
             "Content-Type": "application/json",
